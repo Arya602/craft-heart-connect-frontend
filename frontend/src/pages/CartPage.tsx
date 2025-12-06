@@ -7,6 +7,7 @@ import { removeFromCart, updateQuantity, clearCart } from "@/redux/features/cart
 import { ShoppingCart, Trash2, Plus, Minus } from "lucide-react";
 import { toast } from "react-toastify";
 
+
 const CartPage = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
